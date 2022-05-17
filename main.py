@@ -93,12 +93,12 @@ while(1):
             b = int(input())
 
         if b == 1:
-            #print("Please enter your (<ip>:<port>):")
-            #danie = str(input())
-            #print("Please wait a moment...")
+            print("Please enter your (<ip>:<port>):")
+            danie = str(input())
+            print("Please wait a moment...")
             print()
             checker = Proxymetr()
-            r = checker.start('184.178.172.5:15303')
+            r = checker.start(danie)
             print(r)
             print()
             print('Введите любой символ, чтобы вернуться в меню')
@@ -119,12 +119,12 @@ while(1):
             b = int(input())
 
         if b == 1:
-            #print("Please enter your (<ip>:<port>):")
-            #danie = str(input())
-            #3print("Please wait a moment...")
+            print("Please enter your (<ip>:<port>):")
+            danie = str(input())
+            print("Please wait a moment...")
             print()
             checker = Proxymetr()
-            r = checker.start('169.46.126.192:80')
+            r = checker.start(danie)
             print(r)
             print()
             print('Введите любой символ, чтобы вернуться в меню')
